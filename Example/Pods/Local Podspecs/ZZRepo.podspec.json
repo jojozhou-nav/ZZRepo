@@ -1,0 +1,22 @@
+{
+  "name": "ZZRepo",
+  "version": "0.1.0",
+  "summary": "A short description of ZZRepo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/msy/ZZRepo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "msy": "903104843@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/msy/ZZRepo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZZRepo/Classes/**/*"
+}

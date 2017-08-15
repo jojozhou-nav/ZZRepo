@@ -1,0 +1,6 @@
+framework module ZZRepo {
+  umbrella header "ZZRepo-umbrella.h"
+
+  export *
+  module * { export * }
+}
