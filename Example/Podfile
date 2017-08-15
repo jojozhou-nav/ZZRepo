@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZZRepo_Example' do
+  pod 'ZZRepo', :path => '../'
+
+  target 'ZZRepo_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
