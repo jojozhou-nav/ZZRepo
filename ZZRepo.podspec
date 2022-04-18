@@ -31,12 +31,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZZRepo/Classes/**/*'
-  
-  s.resources = ['ZZRepo/Assets/Images.xcassets']
-  
+    
   s.resource_bundles = {
     'ZZRepo' => ['ZZRepo/Assets/*.png']
   }
+  
+  s.resources = ['ZZRepo/Assets/Images.xcassets']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
